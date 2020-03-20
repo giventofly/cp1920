@@ -6,8 +6,8 @@
 ### Index
 
  - [Exercicio 1](#ex1) 
- -  [Exercicio 2](#ex2) 
- -  [Exercicio 4](#ex4) 
+ - [Exercicio 2](#ex2) 
+ - [Exercicio 4](#ex4) 
  - [in=[zero,succ]](#inzerosucc)
  - [Exercicio 5](#ex5) 
 
