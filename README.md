@@ -2,7 +2,7 @@
 
 Aulas práticas UM CP19-20
 
-informação retirada do slack de CP 19-20, utilização da plataforma devido a pandemia provocada pelo corvid19.
+informação retirada do slack de CP 19-20, utilização da plataforma devido a pandemia provocada pelo COVID19.
 
 ## Link da disciplina
 -[Página cp](http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/WebHome)
