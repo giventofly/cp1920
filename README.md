@@ -16,6 +16,9 @@ informação retirada do slack de CP 19-20, utilização da plataforma devido a 
 - [Aula T6 	19-Mar 	2ª parte](http://www.di.uminho.pt/~jno/media/CP1920-T6b.mp4)
 - [Aula T7 	26-Mar 	1ª parte ](http://www.di.uminho.pt/~jno/media/CP1920-T7a.m4v)
 - [Aula T7 	26-Mar 	2ª parte](http://www.di.uminho.pt/~jno/media/CP1920-T7b.m4v)
+- [Aula T8 	02-Abr 	1ª parte ](http://www.di.uminho.pt/~jno/media/CP1920-T8a.m4v)
+- [Aula T8 	02-Abr 	2ª parte](http://www.di.uminho.pt/~jno/media/CP1920-T8b.m4v)
+
 
 ## Resoluções 
 
