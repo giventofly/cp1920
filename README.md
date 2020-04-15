@@ -25,4 +25,5 @@ informação retirada do slack de CP 19-20, utilização da plataforma devido a 
 - [resoluções ficha 4](https://github.com/giventofly/cp1920/tree/master/ficha4/index.md)
 - [resoluções ficha 5](https://github.com/giventofly/cp1920/tree/master/ficha5/index.md)
 - [resoluções ficha 6](https://github.com/giventofly/cp1920/tree/master/ficha6/index.md)
+- [resoluções ficha 7](https://github.com/giventofly/cp1920/tree/master/ficha7/index.md)
 
