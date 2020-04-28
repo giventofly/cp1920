@@ -6,8 +6,12 @@
 
 ### Index
 
+
 -  [Exercicio 1](#ex1)
+- [Exercicio 2](#ex2)
 -  [Exercicio 3](#ex3)
+- [Exercicio 7](#ex7)
+-  [Exercicio 9](#ex9)
 
   
 
@@ -217,4 +221,72 @@ Então
     <=>    
     true
 
+
+
+
+
+### <a id="ex2"></a> Exercicio 2
+
+  Queremos mostrar que a lei da recursividade mútua generaliza a três funções:
+  
+
+    f.in = h . F <f,<g,j>>
+    g.in = k . F <f,<g,j>>
+    j.in = l . F <f,<g,j>>
+    `<=>`  
+    `<f,<g,j>> = (| <h,<k,l>> |)`
+
+Comecemos então:  
+
+    <f,<g,j>> = (| <h,<k,l>> |)
+    <=> {43}
+    <f,<g,j>> . in = <h,<k,l>> . F <f,<g,j>>
+    <=> {9}
+    <f.in,<g,j>.in> = < h.F <f,<g,j>> , <k,l>.F <f,<g,j>> >
+    <=> {16}
+    f.in = h . F <f,<g,j>>
+    <g,j>.in = <k,l>.(F <f,<g,j>>)
+    <=> {9,16}
+    f.in = h . F <f,<g,j>>
+    g.in = k . F <f,<g,j>>
+    j.in = l . F <f,<g,j>> QED
+
+### <a id="ex8"></a> Exercicio 8
+
+  
+
+Considere o functor:
+
+    T X = X x X
+
+    T f = f x fe as funções:miu = p1 x p2
+    u = <id,id>
+
+Temos de provar que:
+
+    miu . T u = id e que miu . u = id
+
+Substituindo as definições temos:
+
+     miu . T u
+    = {def miu, def T f}
+    (p1 x p2) . (u x u)
+    = {14}
+    (p1 . u) x (p2 . u)
+    = {def u}
+    (p1 . <id,id>) x (p2 . <id,id>)
+    = {7}
+    id x id
+    ={15}
+    id
+    
+Vamos agora a: miu . u = id
+
+    miu . u
+    ={def miu, def u}
+    (p1 x p2).<id,id>
+    = {11, 1}
+    <p1,p2>
+    ={8}
+    id
 
