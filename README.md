@@ -23,8 +23,10 @@ ___
 - [Aula T8 	02-Abr 	2ª parte](http://www.di.uminho.pt/~jno/media/CP1920-T8b.m4v)
 - [Aula T9 	16-Abr 	1ª parte ](http://www4.di.uminho.pt/~jno/media/CP1920-T9a.m4v)
 - [Aula T9 	16-Abr 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T9b.m4v)
-- [Aula T8 	23-Abr 	1ª parte ](http://www4.di.uminho.pt/~jno/media/CP1920-T10a.m4v)
-- [Aula T8 	23-Abr 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T10b.m4v)
+- [Aula T10 	23-Abr 	1ª parte ](http://www4.di.uminho.pt/~jno/media/CP1920-T10a.m4v)
+- [Aula T10 	23-Abr 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T10b.m4v)
+- [Aula T11 	30-Abr 	1ª parte ](http://www4.di.uminho.pt/~jno/media/CP1920-T11a.m4v)
+- [Aula T11 	30-Abr 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T11b.m4v)
 
 
 ## Resoluções 
