@@ -10,7 +10,7 @@
  
 ### Index
 
--  [Exercicio 1](#ex1)
+- [Exercicio 1](#ex1)
 - [Exercicio 2](#ex2)
 - [Exercicio 3](#ex3)
 - [Exercicio 4](#ex4)

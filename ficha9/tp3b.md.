@@ -1,0 +1,71 @@
+  
+
+# ficha 9
+
+
+## Resoluções por Renato Neves
+
+Esta aula iremos estudar a noção de **anamorfismo**, que é uma versão dual de **catamorfismo** enquanto que um catamorfismo é uma função *recursiva* que *processa* elementos de uma estruturas de dados (por exemplo, listas), um anamorfismo é uma função *recursiva* que *gera* elementos de uma estruturas de dados com base num valor inicial.
+
+Por exemplo,
+1) a função `sum :: [Int] -> Int` que soma todos os elementos de uma lista é um **catamorfismo de listas** 
+2) a função `geraI :: Int -> [Int]` que dado um valor gera os primeiros n-números ímpares é um **anamorfismo de listas**.
+
+Vão haver vários casos em que vão ficar supreendidos, pois vocês irão ver que funções que processam elementos de uma estrutura de dados também podem ser vistas como funções que geram elementos de uma  
+estrutura de dados. Por outras palavras, a mesma função pode ser representada tanto como um catamorfismo ou como um anamorfismo.
+
+### Index
+
+-  [Exercicio 6](#ex6)
+
+  
+### <a id="ex6"></a> Exercicio 6
+
+O objectivo do exercício é pegar na definição de `k` como um anamorfismo, e converte-la para uma definição a la Haskell.
+
+Quando tentam fazer uma tal conversão, é importante ter em conta a lei **universal** (neste casos a dos anamorfismos) e a lei dos isomorfismos que referi ontem (**leis (2.18) e (2.19)** dos apontamentos).
+
+`k = [( id + <f,id> ) . out_N )]`  
+
+`≡ { Lei universal-ana }`  
+`out . k = (F k) . ( id + <f,id> ) . out_N`  
+
+`≡ { Lei isomorfismos in/out (leis 2.18 e 2.19) }`  
+`k = in . (F k) . ( id + <f,id> ) . out_N`  
+
+`≡ { Lei isomorfismos in/out (leis 2.18 e 2.19) }`  
+`k . in_N = in . (F k) . ( id + <f,id> )`  
+
+`≡ { Definição functor das listas }`  
+`k . in_N = in . (id + (id x k)) . ( id + <f,id> )`  
+
+`≡ { Definição in-nat e in-listas }`  
+`k . [0̲, succ] = [nil,cons] . (id + (id x k)) . ( id + <f,id> )`  
+
+`≡ { Fusão-+ }`  
+`[k . 0̲, k . succ] = [nil,cons] . (id + (id x k)) . ( id + <f,id> )`  
+
+`≡ { Absorpção-+ }`  
+`[k . 0̲, k . succ] = [nil,cons . (id x k)] . ( id + <f,id> )`  
+
+`≡ { Absorpção-+ }`  
+`[k . 0̲, k . succ] = [nil,cons . (id x k) . <f,id> ]`  
+
+`≡ { Absorpção-x }`  
+`[k . 0̲, k . succ] = [nil,cons . <f,k>]`  
+
+`≡ { Lei Eq-+ }`  
+`k . 0̲ = nil`  
+`k . succ = cons . <f,k>`  
+
+`≡ { Igualdade extensional, definição composição }`  
+`k 0 = []`  
+`k (n+1) = (f n) : (k n)`
+
+
+
+
+
+
+  
+  

@@ -1,8 +1,8 @@
 # cp1920
 
-Aulas práticas UM CP19-20
+Aulas práticas UM CP 19-20
 
-informação retirada do slack de CP 19-20 e página da disciplina, utilização da plataforma devido a pandemia provocada pelo COVID19.
+informação retirada do slack de CP 19-20 e página da disciplina.
 
 ## Link da disciplina
 - [Página cp](http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/WebHome)
@@ -27,9 +27,11 @@ ___
 - [Aula T10 	23-Abr 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T10b.m4v)
 - [Aula T11 	30-Abr 	1ª parte ](http://www4.di.uminho.pt/~jno/media/CP1920-T11a.m4v)
 - [Aula T11 	30-Abr 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T11b.m4v)
+- [Aula T12 	07-Mai 	1ª parte ](http://www4.di.uminho.pt/~jno/media/CP1920-T12a.m4v)
+- [Aula T112	07-Mai 	2ª parte](http://www4.di.uminho.pt/~jno/media/CP1920-T12b.m4v)
 
 
-## Resoluções 
+## Resoluções TP
 
 - [resoluções ficha 4](https://github.com/giventofly/cp1920/tree/master/ficha4/index.md)
 - [resoluções ficha 5](https://github.com/giventofly/cp1920/tree/master/ficha5/index.md)
@@ -37,4 +39,6 @@ ___
 - [resoluções ficha 7](https://github.com/giventofly/cp1920/tree/master/ficha7/index.md)
 - [resoluções ficha 8](https://github.com/giventofly/cp1920/tree/master/ficha8/index.md)
 - [resoluções ficha 9](https://github.com/giventofly/cp1920/tree/master/ficha9/index.md)
+- [resoluções ficha 10](https://github.com/giventofly/cp1920/tree/master/ficha10/index.md)
+- [resoluções ficha 11](https://github.com/giventofly/cp1920/tree/master/ficha11/index.md)
 
